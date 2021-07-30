@@ -1,0 +1,149 @@
+---
+title: "Cockle survey - Area 8 and 15"
+author: "Philip Haupt (Kent and Essex Lead Science and Conservation Officer)"
+date: "19/07/2021"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Summary
+Cockle sampling was carried out during April 2021 and repeated in July for TECFO fishing areas 8 and 15 to confirm if the low levels of stocks found in the April survey remained low later in the year. 
+
+There was a insignificant increase in the number of adult cockles in area 15 (0.25 cockles extra per sample), while area 8 showed a significant decline in the number of adult cockles. Overall, the greatest difference found was presence of spat in the July survey which was absent in the April survey.  The apparent increase in stock on Area 15 has to be treated with caution, because the sampling design was changed in July by restricting the sampled area to the area where the highest density of stock was found during the April surveys. Twice as many samples were collected in the new sampling area. The difference is therefore better examined by only comparing data from samples that fall within the "high density area" in area 15. 
+
+## Area 15
+More 3 year old cockles were found per Day-grab sample in July than April. The difference is largely offset by the decrease in number of cockles in the 2 year July. It is likely that the cockles which were classified as 2 year old, have now grown into three year old. When 1 - 3 year class over 14mm were added together (and considered as adult stock), the result was not statistically significant, with only 0.25 more adult cockles (1 - 3 year class) per Day-grab sample (1m^2^). 
+
+There was also no significant change in the geographical distribution where the stock was found within areas 15 or 8. There average weight of adult cockles were very similar in April and July surveys. Extrapolation of this data therefore did not suggest sufficient growth that could support a cockle fishery. We therefore conclude that the existing stock in area 15 is not at a level that can be harvested without negatively impacting the sustainability of the stock and reducing spat fall opportunity for the following year.
+
+## Area 8
+The amount of stock in Area 8 was lower during the July survey than during the April survey, with adult biomass dropping from 1043 tonnes to 827 tonnes. We therefore recommend that this area remains closed for the 2021 TECFO fishery.
+
+# Introduction
+Cockles were surveyed twice in cockle fishing area 15 (Margate Sands) and the area 8 (East Barrows) in the Thames, first, during April 2021 and then again in July 2021.
+
+## Background
+Area 15 was not opened to cockle fishing owing to insufficient stock to support a sustainable fishery on this bed at the time. Area 15 was closed in order to protect potential spat and not turn it over by fishing. 
+
+During a meeting raised with cockle fishermen, there was a call for surveying Area 15 again, owing the exceptionally good returns from the 2020 fishery on that cockle bed. It was agreed to resurvey the area during the quarterly KEIFCA Authority meeting in April prior to opening the fishing season. It was decided to carry out the survey in mid-July to address concerns raised by the fishermen with respect to persistent NE winds which they believed could have interfered with the survey.
+
+Area 8 was initially opened, but then closed after poor yields were reported by fishermen. This is standard practice set out in the TECFO regulations. KEIFCA agreed to re-survey area 8 because the growth of individual size in the area is thought be exceptional, which may validate opening the area at a later date.
+
+Both area 8 and 15 were surveyed between the 13 and the 19 July 2021. The survey methods used to collect were the same for both the two April and July surveys, using a Day-grab with a 1m^2^ surface area (33cm by 33cm), as has been done over the past 30 years. The method is thus supported by a robust data set underpinning the fisheries' successful management. The same survey teams and same survey vessels were used in the areas resurveyed in July, as it had been in April 2021.
+
+# Methods
+The standard Day-grab sampling methods used during the Annual cockle survey were used during this survey.
+
+The same 61 sampling sites (GPS coordinates) were surveyed in April and July has been surveyed every year for Area 8 (Figure 1). Area 15 was newly surveyed in 2021. The survey area was informed by the VMS data locations from the 2020 fishery in the area. A 15 seconds survey grid, consistent with the grid spacing elsewhere, was overlaid on the area, and trimmed using the bathymetry data from the charts, yielding 71 sampling sites in Area 15. This area extended beyond the area fished in 2020, but was done to ensure detecting up any stocks not fished, or new stocks inside and outside of the area fished in 2020. The survey results from April 2020 confirmed that the survey-area could be trimmed tighter to the area in which the greatest density of VMS locality points form the 2020 cockle fishery were observed. This area overlapped very well with the where cockles were present in 2021 during the April survey. For the July survey, the survey area was then focussed on the trimmed area. In total 41 sampling sites from the April survey grid (at 289.65 m by 463.57 m apart) remain within the "high density area". The density of the survey grid was then doubled to 82 points, adding a row of survey points between each of the existing rows of points from the April-survey grid (231.785 m by 289.678 m apart).
+
+![Fig. 1 Map of survey area and survey grids.](C:/Users/Phillip Haupt/Documents/SUSTAINABLE FISHERIES/cockle_fishery/cockles_data/July_2021_additional_survey/area_8_15.png)
+
+The data was then analysed, accounting for the fact that there were twice as many samples in the same area as during the April survey. The mean (average) number of cockles per sample with standard error (which represents the standadrised variation between samples) is represented in bar plots: To make the survey results comparable (owing to the different number of sampling sites), the average number of cockles per sample is presented; this standardises the results. The variation (which is also dependent on the sample size was standardised and presented as standard error bars on the graph.
+
+### Statistical analysis
+Following standard data exploration tests, spat was analysed separately from 1 - 3 year old cockles in pooled analyses, to remove the effect of outliers.
+
+The non-independence of the sampling design requires statistical analysis that account for spatial dependence structure in the model, such as mixed effects models. Furthermore, the data are strongly zero inflated, requiring the need for using a zero-inflated mixed effects model.
+This involves a high level complex modelling technique which will require a few days to work up; in the interim a Wilcoxon rank summed test was used to assess the statistical significance of the differences between the density of cockles between the April and July surveys, for each of the two areas. The test was carried out for pooled data from 1 to 3 year classes, and repeated for each year class. Statistical significance is reported at the 95 % confidence limits. 
+
+
+# Results
+Overall, there was no significant difference in the amount of adult stock found between the April and July in Area 15, but a small but significant decline in adult stock was observed in Area 8 by July when compared to April.
+
+The largest difference in the number of cockles between the two surveys was that substantial levels of spat  detected during the July survey, which was absent in April (Table 2 and Figure 2a). This report focusses on the adult cockles, as spat is surveyed and reported on later in the year following the Annual September surveys following main spatting events each year. 
+
+In Area 15, more adult cockles were found during the July survey (Table 2), but was largely explained by the fact that twice as many samples were collected (Table 1). 
+
+
+```{r Number of surveys, echo = FALSE, warning=FALSE,message=FALSE }
+library(tidyverse)
+
+combined_cln <- read_rds("C:/Users/Phillip Haupt/Documents/SUSTAINABLE FISHERIES/cockle_fishery/standardising_resurvey_grids/standardising_uneven_repeated_survey_grids/report/data/combined_cln.rds")
+# number of successful surveys
+combined_cln %>% filter(!is.na(abundance)) %>% 
+  group_by(area_code, survey_name) %>% 
+  distinct(sampling_site) %>% 
+  summarise(number_of_surveys = n()) %>% 
+  rename(`Area` = area_code,
+         `Survey date` = survey_name, 
+         `Number of samples` = number_of_surveys) %>% 
+  pivot_wider(names_from = `Survey date`, values_from = `Number of samples`) %>% 
+  knitr::kable(caption = "Table 1. The number of sampling sites in each of the areas in April and July 2021.", align = "lcc")
+
+# total number of cockles per year class for each of the two surveys
+combined_cln %>% 
+  group_by(area_code, survey_name, year_class_category) %>% 
+  summarise(total = sum(abundance, na.rm = TRUE))%>% 
+  pivot_wider(names_from = survey_name, values_from = total) %>% 
+  rename(Area = area_code,
+         `Year class` = year_class_category) %>% 
+  knitr::kable(caption = "Table 2. The total number of cockles in each of the areas in April and July 2021.", align = "llcc")
+```
+
+
+
+The apparent increase of average number of cockles per sample in the 3+ year classes in Figure 2b is explained by the concurrent decrease of the 2 year class: The 2 year old class has grown from April and by July they were classified as 3+ year class, and therefore the total adult stock remains very similar between surveys. The overlap of the standard error bars in Figure 2c suggests that the differences were not significant: The variation from samlping site to site within the same area during the same sampling period (April or July respectively) were greater than the differences between the mean number of cockles per sample between April and July.
+
+```{r pressure, echo=FALSE, warning=FALSE, message=FALSE, fig.height = 6, fig.width = 10, fig.align = "center"}
+library(tidyverse)
+library(ggsci)
+library("gridExtra")
+
+p1 <- read_rds("C:/Users/Phillip Haupt/Documents/SUSTAINABLE FISHERIES/cockle_fishery/standardising_resurvey_grids/standardising_uneven_repeated_survey_grids/report/data/cockle_numbers_mean_barchart.rds")
+
+p2 <- read_rds("C:/Users/Phillip Haupt/Documents/SUSTAINABLE FISHERIES/cockle_fishery/standardising_resurvey_grids/standardising_uneven_repeated_survey_grids/report/data/cockle_numbers_mean_barchart_1to3yc.rds")
+
+p3 <- read_rds("C:/Users/Phillip Haupt/Documents/SUSTAINABLE FISHERIES/cockle_fishery/standardising_resurvey_grids/standardising_uneven_repeated_survey_grids/report/data/cockle_numbers_mean_barchart_adults.rds")
+
+
+grid.arrange(p1, p2, p3, ncol = 3)
+```
+
+*Fig 2). The average number of cockles per Day-grab sample for Area 15 and 8: 1a) for 0,1,2, and 3+ year classes, 1b) for 1,2 and 3+ year class (spat ommited to aid viewing graph), 1c) total adult cockles*
+
+In Area 15, the increase recorded in July for total adults is approximately 0.25 additional cockles per sample site compared to the April survey. However, this slight increase does not represent an consistent increase across Area 9, but rather reflects the patchiness of the cockle concentrations: A few sites had a lot of cockles, but most sites did not have many or any cockles. This can be seen in the map below showing where cockles were found along the survey grid. In Area 15 there was no expansion in the geographical distribution of the adult cockle stock in Area 15 between April and July (Figure 3). 
+
+```{r spatial distribution of stock Area 15,echo=FALSE, warning=FALSE, message=FALSE, fig.height = 6.5, fig.width = 12, fig.align = "center"}
+library(tidyverse)
+library(ggsci)
+adult_year_classes_spatial_plot_area_15 <- read_rds("C:/Users/Phillip Haupt/Documents/SUSTAINABLE FISHERIES/cockle_fishery/standardising_resurvey_grids/standardising_uneven_repeated_survey_grids/report/data/adult_year_classes_spatial_plot_area_15.rds")
+
+adult_year_classes_spatial_plot_area_15
+
+```
+
+*Fig 3. Geographical distributions of cockle year classes in Area 15 in April and July 2021.*
+
+There was also no obvious change to the geographical distribution of the adult cockle stocks between April and July in Area 8 (Figure 4). 
+```{r spatial distribution of stock,echo=FALSE, warning=FALSE, message=FALSE, fig.height = 8, fig.width = 10, fig.align = "center"}
+library(tidyverse)
+library(ggsci)
+
+adult_year_classes_spatial_plot_area_8 <- read_rds("C:/Users/Phillip Haupt/Documents/SUSTAINABLE FISHERIES/cockle_fishery/standardising_resurvey_grids/standardising_uneven_repeated_survey_grids/report/data/adult_year_classes_spatial_plot_area_8.rds")
+
+adult_year_classes_spatial_plot_area_8
+
+```
+
+*Fig 4. Geographical distributions of cockle year classes in Area 8 in April and July 2021.*
+
+The average weight of cockles (3+ year class) deceased slightly from 14.05 g/cockle to 13.37 g/cockle in Area 15, while it declined from 13 g from to 12 g/cockle in Area 8 by July 2021.
+
+
+# Discussion
+The results from this study confirmed that there was no increase of adult cockle stocks in Area 15 and Area 8 showed a slight decline between April to July 2021. Overall there is no evidence to support opening Area 15 (Margate Long sands) or 8 (East Barrows) to cockle fishing during the 2021. 
+
+The relatively small increases observed in particular year classes in Area 15 were sufficiently explained by growth of younger year classes recorded in April to older year classes by July, and can be seen when pooling the 1 to 3 year class data to obtain overall adult population abundances. The remaining differences (ca 1 extra cockle every four sampling sites), after accounting for promotion of cockles from younger to older year classes, is not substantial enough to be statistically, or biologically significant (in Area 15).
+
+In Area 8 slightly fewer cockles were recorded in the adult population during July compared to April. 
+
+The similarity in the geographical distribution of adult cockle abundance showed that the cockles did not undergo an expansion in range at the onset of early summer and supports the idea that cockle populations are highly patchy within cockle beds. The similarity in these distributions and the similarity in variation in population sizes between sampling points reaffirms the robustness of the survey method to accurately detect cockle abundance within the district. 
+
+There was no evidence to suggest that individual cockles have gained biomass (weight) that would translate into a harvestable stock on either Area 15 or Area 8.
+
+The presence of spat in July survey were detected at the same sampling sites as the areas in which the highest adult cockle densities were found during July survey. The presence of spat in Area 15 further supports not opening the fishery in order to protect the spat from being turned over, in the hope that the Margate Sands would become an established cockle bed over time. Cockle surveys will be carried during September 2021 to assess the 2021 summer spat fall.
+
+The recommendations made in this report were made based on the evidence collected using the same methods that have supported a long running sustainable cockle fishery. It is hoped that the recommendations will be considered by those interested in the present and long term sustainability of the fishery.
+
