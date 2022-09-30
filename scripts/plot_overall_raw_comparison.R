@@ -4,6 +4,8 @@ library(plotrix)
 library(ggsci)
 library("gridExtra")
 
+combined_cln <- combined_cln_15 # required name for using in plots as written below
+
 summary_combined_data <- combined_cln %>%
   dplyr::group_by(survey_name, area_code, year_class_category) %>%
   dplyr::summarise(cockles_per_sample_mean = mean(abundance, na.rm = TRUE),
@@ -112,8 +114,8 @@ p3
 # #plot side by side
 grid.arrange(p1, p2, p3, ncol = 3)
 
-#write data for recall in RMD report
-write_rds(p1, "./report/data/cockle_numbers_mean_barchart.rds")
-write_rds(p2, "./report/data/cockle_numbers_mean_barchart_1to3yc.rds")
-write_rds(p3, "./report/data/cockle_numbers_mean_barchart_adults.rds")
+# #write data for recall in RMD report
+# write_rds(p1, "./report/data/cockle_numbers_mean_barchart.rds")
+# write_rds(p2, "./report/data/cockle_numbers_mean_barchart_1to3yc.rds")
+# write_rds(p3, "./report/data/cockle_numbers_mean_barchart_adults.rds")
 

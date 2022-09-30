@@ -1,18 +1,17 @@
 # statstical test to compare uneven sample size
 
-abundance_8 <- combined_cln %>%
-  filter(area_code == "8") %>%
+combined_cln_15 %>% 
   group_by(survey_name) %>%
   select(abundance, survey_name)
 
 
-wilcox.test(x = combined_cln$abundance[which(combined_cln$survey_name == "July"),],
-            y = combined_cln$abundance[which(combined_data$survey_name == "April"),],
+wilcox.test(x = combined_cln_15$abundance[which(combined_cln$survey_name == "July"),],
+            y = combined_cln_15$abundance[which(combined_cln$survey_name == "April"),],
             "two.sided")
 
 # needs to be repeated for every year class - see if you can do like last example
 
-combined_cln %>%
+combined_cln_15 %>%
   dplyr::group_by() %>%
   summarise(wilcox_stat = wilcox.test())
 
